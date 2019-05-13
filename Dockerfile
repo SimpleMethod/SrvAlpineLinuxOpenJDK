@@ -6,7 +6,7 @@ LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.description="Alpine system witch OpenJDK 1.8.0_212"
 LABEL org.label-schema.maintainer="m.mlodawski@simplemethod.io"
 LABEL org.label-schema.build-date="13.05.2019"
-LABEL org.label-schema.url="https://github.com/SimpleMethod/AlpineLinuxOpenJDK/tree/JDK8.0"
+LABEL org.label-schema.url="https://github.com/SimpleMethod/SrvAlpineLinuxOpenJDK"
 
 ENV DEBIAN_FRONTEND=noninteractive \
 	HOME=/root \
