@@ -66,6 +66,8 @@ RUN chmod +x /etc/supervisor/conf.d/exec.sh
 #Copying the configuration for supervisord
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+COPY cert.pem /etc/cert.pem
+
 VOLUME ["/sys/fs/cgroup", "/root/.mozilla", "/var/lib/"]
 
 #Starting the supervisor
